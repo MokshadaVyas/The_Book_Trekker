@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up Form</title>
+
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="box form-box">
+      <!-- <h1>Sign up</h1> -->
+      <div class="sign-up-content">
+        <form method="POST" action="signup.php" class="signup-form">
+          <h2 class="form-title">Sign-Up</h2>
+          <div class="form-textbox">
+            <label for="username">Full Name</label>
+            <input type="text" name="username" id="username" required />
+          </div>
+          <div class="form-textbox">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div class="form-textbox">
+            <label for="age">Age</label>
+            <input type="age" name="age" id="age" required />
+          </div>
+          
+          <div class="form-textbox">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" required />
+          </div>
+          <br>
+
+
+          <div class="form-textbox submit">
+            <input type="submit" name="submit" value="Sign-Up">
+
+            <br><br>
+          </div>
+        </form>
+        <p class="loginhere">
+          Already have an account ?<a href="signin.html" class="loginhere-link"> Log in</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- JS -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script> -->
+</body>
+
+</html>
